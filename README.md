@@ -5,18 +5,15 @@
 [![PyPi Package](https://img.shields.io/pypi/v/as7262.svg)](https://pypi.python.org/pypi/as7262)
 [![Python Versions](https://img.shields.io/pypi/pyversions/as7262.svg)](https://pypi.python.org/pypi/as7262)
 
-Suitable for detecting the properties of ambient light, light passing through a liquid or light reflected from an object the AS7262 spectral sensor has 6 spectral channels at 450 (violet), 500 (blue), 550 (green), 570 (yellow), 600 (orange) and 650nm (red).
+Forked from https://github.com/pimoroni/as7262-python
+Suitable for detecting the properties of ambient light, light passing through a liquid or light reflected from an object.
 
 # Installing
 
-Stable library from PyPi:
-
-* Just run `sudo pip install as7262`
-
 Latest/development library from GitHub:
 
-* `git clone https://github.com/pimoroni/as7262-python`
-* `cd as7262-python`
+* `git clone https://github.com/HeyLlama/as726x-python`
+* `cd as726x-python`
 * `sudo ./install.sh`
 
 # Example
