@@ -52,3 +52,20 @@ setup(
     packages=['as7262'],
     install_requires=['i2cdevice>=0.0.6']
 )
+
+
+setup(
+    name='as7263',
+    version='0.1.0',
+    author='Philip Howard',
+    author_email='phil@pimoroni.com',
+    description="""Python library for the spectral sensor""",
+    long_description=open('README.rst').read() + '\n' + open('CHANGELOG.txt').read(),
+    license='MIT',
+    keywords='Raspberry Pi',
+    url='http://www.pimoroni.com',
+    project_urls={'GitHub': 'https://www.github.com/pimoroni/as7262-python'},
+    classifiers=classifiers,
+    packages=['as7263'],
+    install_requires=['i2cdevice>=0.0.6']
+)
