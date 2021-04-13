@@ -101,7 +101,7 @@ class IntegrationTimeAdapter(Adapter):
 class CalibratedValues:
     """Store the 6 band spectral values."""
 
-"""r:610nm, s:680nm, t:730nm, u:760nm, v:810nm, w:860nm"""
+    """r:610nm, s:680nm, t:730nm, u:760nm, v:810nm, w:860nm"""
 
     def __init__(self, w, v, u, t, s, r):
         self.w = w
@@ -120,7 +120,7 @@ they're just called something different"""
 """AS7263 Registers"""
 class AS7263:
     def __init__(self, i2c_dev=None):
-        self._as7263 = Device(0x49, i2c_dev=as7262VirtualRegisterBus(i2c_dev=i2c_dev), bit_width=8, registers=(
+        self._as7263 = Device(0x49, i2c_dev=as7263VirtualRegisterBus(i2c_dev=i2c_dev), bit_width=8, registers=(
             Register('VERSION', 0x00, fields=(
                 BitField('hw_type', 0xFF000000),
                 BitField('hw_version', 0x00FF0000),
