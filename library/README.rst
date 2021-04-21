@@ -1,4 +1,4 @@
-AS7262 Spectral Sensor
+AS726X Spectral Sensor
 ======================
 
 |Build Status| |Coverage Status| |PyPi Package| |Python Versions|
